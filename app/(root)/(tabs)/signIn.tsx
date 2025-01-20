@@ -15,6 +15,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 const SignIn = () => {
   const { refetch } = useGlobalContext();
+
   const handleLogin = async () => {
     try {
       const result = await login();
