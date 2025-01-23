@@ -24,7 +24,7 @@ const TabIcon = ({
         focused
           ? "text-primary-300 font-rubik-medium"
           : "text-black-200 font-rubik"
-      } text-xm w-full text-center mt-1`}
+      } text-xm w-full text-center`}
     >
       {title}
     </Text>
