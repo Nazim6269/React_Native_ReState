@@ -52,7 +52,7 @@ export const FeatureCard = ({ item, onPress }: Props) => {
 export const Card = ({ item, onPress }: Props) => {
   return (
     <TouchableOpacity
-      className="flex-1 w-full mt-4 px-3 py-4 rounded-lg bg-white shadow-lg shadow-black-100/70 relative"
+      className="flex-1 w-full mt-4 px-3 py-4 rounded-lg bg-white shadow-2xl shadow-black-100/70 relative"
       onPress={onPress}
     >
       <View className="flex flex-row items-center absolute px-2 top-5 right-5 bg-white/90 p-1 rounded-full z-50">
